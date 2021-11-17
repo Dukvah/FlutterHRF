@@ -1,0 +1,459 @@
+C:\Users\user\source\repos\Api\API\bin\API.dll.config
+C:\Users\user\source\repos\Api\API\bin\API.dll
+C:\Users\user\source\repos\Api\API\bin\API.pdb
+C:\Users\user\source\repos\Api\API\bin\roslyn\csc.exe
+C:\Users\user\source\repos\Api\API\bin\roslyn\csc.exe.config
+C:\Users\user\source\repos\Api\API\bin\roslyn\csc.rsp
+C:\Users\user\source\repos\Api\API\bin\roslyn\csi.exe
+C:\Users\user\source\repos\Api\API\bin\roslyn\csi.exe.config
+C:\Users\user\source\repos\Api\API\bin\roslyn\csi.rsp
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\source\repos\Api\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.AppContext.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Console.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\source\repos\Api\API\bin\roslyn\vbc.exe
+C:\Users\user\source\repos\Api\API\bin\roslyn\vbc.exe.config
+C:\Users\user\source\repos\Api\API\bin\roslyn\vbc.rsp
+C:\Users\user\source\repos\Api\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\source\repos\Api\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\source\repos\Api\API\bin\DAL.dll
+C:\Users\user\source\repos\Api\API\bin\EntityFramework.dll
+C:\Users\user\source\repos\Api\API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Options.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\user\source\repos\Api\API\bin\Namotion.Reflection.dll
+C:\Users\user\source\repos\Api\API\bin\Newtonsoft.Json.dll
+C:\Users\user\source\repos\Api\API\bin\NJsonSchema.dll
+C:\Users\user\source\repos\Api\API\bin\NJsonSchema.Yaml.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.Annotations.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.AspNetCore.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.Core.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.Core.Yaml.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.Generation.AspNetCore.dll
+C:\Users\user\source\repos\Api\API\bin\NSwag.Generation.dll
+C:\Users\user\source\repos\Api\API\bin\System.Buffers.dll
+C:\Users\user\source\repos\Api\API\bin\System.ComponentModel.Primitives.dll
+C:\Users\user\source\repos\Api\API\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\user\source\repos\Api\API\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\Api\API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\source\repos\Api\API\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\user\source\repos\Api\API\bin\System.Text.Encodings.Web.dll
+C:\Users\user\source\repos\Api\API\bin\System.Web.Http.dll
+C:\Users\user\source\repos\Api\API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\source\repos\Api\API\bin\YamlDotNet.dll
+C:\Users\user\source\repos\Api\API\bin\DAL.pdb
+C:\Users\user\source\repos\Api\API\bin\DAL.dll.config
+C:\Users\user\source\repos\Api\API\bin\EntityFramework.xml
+C:\Users\user\source\repos\Api\API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Options.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\user\source\repos\Api\API\bin\Namotion.Reflection.xml
+C:\Users\user\source\repos\Api\API\bin\NJsonSchema.xml
+C:\Users\user\source\repos\Api\API\bin\NSwag.Annotations.xml
+C:\Users\user\source\repos\Api\API\bin\NSwag.AspNetCore.xml
+C:\Users\user\source\repos\Api\API\bin\NSwag.Core.xml
+C:\Users\user\source\repos\Api\API\bin\NSwag.Generation.xml
+C:\Users\user\source\repos\Api\API\bin\NSwag.Generation.AspNetCore.xml
+C:\Users\user\source\repos\Api\API\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\source\repos\Api\API\bin\System.Text.Encodings.Web.xml
+C:\Users\user\source\repos\Api\API\bin\YamlDotNet.xml
+C:\Users\user\source\repos\Api\API\bin\Newtonsoft.Json.xml
+C:\Users\user\source\repos\Api\API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\source\repos\Api\API\bin\System.Web.Http.xml
+C:\Users\user\source\repos\Api\API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\source\repos\Api\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\source\repos\Api\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Api\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Api\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\source\repos\Api\API\obj\Debug\API.dll
+C:\Users\user\source\repos\Api\API\obj\Debug\API.pdb
+E:\bugrahansnmz\Api\API\bin\API.dll.config
+E:\bugrahansnmz\Api\API\bin\API.dll
+E:\bugrahansnmz\Api\API\bin\API.pdb
+E:\bugrahansnmz\Api\API\bin\roslyn\csc.exe
+E:\bugrahansnmz\Api\API\bin\roslyn\csc.exe.config
+E:\bugrahansnmz\Api\API\bin\roslyn\csc.rsp
+E:\bugrahansnmz\Api\API\bin\roslyn\csi.exe
+E:\bugrahansnmz\Api\API\bin\roslyn\csi.exe.config
+E:\bugrahansnmz\Api\API\bin\roslyn\csi.rsp
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.Managed.Core.targets
+E:\bugrahansnmz\Api\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\bugrahansnmz\Api\API\bin\roslyn\System.AppContext.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Collections.Immutable.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Console.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.IO.Compression.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.IO.FileSystem.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.IO.Pipes.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.AccessControl.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Claims.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Security.Principal.Windows.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.ValueTuple.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Xml.XmlDocument.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Xml.XPath.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\bugrahansnmz\Api\API\bin\roslyn\vbc.exe
+E:\bugrahansnmz\Api\API\bin\roslyn\vbc.exe.config
+E:\bugrahansnmz\Api\API\bin\roslyn\vbc.rsp
+E:\bugrahansnmz\Api\API\bin\roslyn\VBCSCompiler.exe
+E:\bugrahansnmz\Api\API\bin\roslyn\VBCSCompiler.exe.config
+E:\bugrahansnmz\Api\API\bin\DAL.dll
+E:\bugrahansnmz\Api\API\bin\EntityFramework.dll
+E:\bugrahansnmz\Api\API\bin\EntityFramework.SqlServer.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Authorization.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Routing.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.StaticFiles.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.DotNet.InternalAbstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.DependencyModel.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.ObjectPool.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Options.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.PlatformAbstractions.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Primitives.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.WebEncoders.dll
+E:\bugrahansnmz\Api\API\bin\Microsoft.Net.Http.Headers.dll
+E:\bugrahansnmz\Api\API\bin\Namotion.Reflection.dll
+E:\bugrahansnmz\Api\API\bin\Newtonsoft.Json.dll
+E:\bugrahansnmz\Api\API\bin\NJsonSchema.dll
+E:\bugrahansnmz\Api\API\bin\NJsonSchema.Yaml.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.Annotations.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.AspNetCore.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.Core.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.Core.Yaml.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.Generation.AspNetCore.dll
+E:\bugrahansnmz\Api\API\bin\NSwag.Generation.dll
+E:\bugrahansnmz\Api\API\bin\System.Buffers.dll
+E:\bugrahansnmz\Api\API\bin\System.ComponentModel.Primitives.dll
+E:\bugrahansnmz\Api\API\bin\System.ComponentModel.TypeConverter.dll
+E:\bugrahansnmz\Api\API\bin\System.Diagnostics.DiagnosticSource.dll
+E:\bugrahansnmz\Api\API\bin\System.Net.Http.Formatting.dll
+E:\bugrahansnmz\Api\API\bin\System.Runtime.Serialization.Primitives.dll
+E:\bugrahansnmz\Api\API\bin\System.Text.Encodings.Web.dll
+E:\bugrahansnmz\Api\API\bin\System.Web.Http.dll
+E:\bugrahansnmz\Api\API\bin\System.Web.Http.WebHost.dll
+E:\bugrahansnmz\Api\API\bin\YamlDotNet.dll
+E:\bugrahansnmz\Api\API\bin\DAL.pdb
+E:\bugrahansnmz\Api\API\bin\DAL.dll.config
+E:\bugrahansnmz\Api\API\bin\EntityFramework.xml
+E:\bugrahansnmz\Api\API\bin\EntityFramework.SqlServer.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Authorization.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Routing.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.StaticFiles.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.ObjectPool.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Options.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.PlatformAbstractions.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.Primitives.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Extensions.WebEncoders.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.Net.Http.Headers.xml
+E:\bugrahansnmz\Api\API\bin\Namotion.Reflection.xml
+E:\bugrahansnmz\Api\API\bin\NJsonSchema.xml
+E:\bugrahansnmz\Api\API\bin\NSwag.Annotations.xml
+E:\bugrahansnmz\Api\API\bin\NSwag.AspNetCore.xml
+E:\bugrahansnmz\Api\API\bin\NSwag.Core.xml
+E:\bugrahansnmz\Api\API\bin\NSwag.Generation.xml
+E:\bugrahansnmz\Api\API\bin\NSwag.Generation.AspNetCore.xml
+E:\bugrahansnmz\Api\API\bin\System.Diagnostics.DiagnosticSource.xml
+E:\bugrahansnmz\Api\API\bin\System.Text.Encodings.Web.xml
+E:\bugrahansnmz\Api\API\bin\YamlDotNet.xml
+E:\bugrahansnmz\Api\API\bin\Newtonsoft.Json.xml
+E:\bugrahansnmz\Api\API\bin\System.Net.Http.Formatting.xml
+E:\bugrahansnmz\Api\API\bin\System.Web.Http.xml
+E:\bugrahansnmz\Api\API\bin\System.Web.Http.WebHost.xml
+E:\bugrahansnmz\Api\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\bugrahansnmz\Api\API\obj\Debug\API.csproj.AssemblyReference.cache
+E:\bugrahansnmz\Api\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+E:\bugrahansnmz\Api\API\obj\Debug\API.csproj.CopyComplete
+E:\bugrahansnmz\Api\API\obj\Debug\API.dll
+E:\bugrahansnmz\Api\API\obj\Debug\API.pdb
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\API.dll.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\API.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\API.pdb
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\DAL.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Namotion.Reflection.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NJsonSchema.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NJsonSchema.Yaml.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Annotations.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.AspNetCore.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Core.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Core.Yaml.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Generation.AspNetCore.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Generation.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Buffers.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.ComponentModel.Primitives.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\YamlDotNet.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\DAL.pdb
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\DAL.dll.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.StaticFiles.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.FileProviders.Embedded.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Options.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Namotion.Reflection.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NJsonSchema.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Annotations.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.AspNetCore.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Core.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Generation.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\NSwag.Generation.AspNetCore.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Text.Encodings.Web.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\YamlDotNet.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\obj\Debug\API.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\API\obj\Debug\API.pdb

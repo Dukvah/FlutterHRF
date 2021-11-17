@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="hfrModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tbl_Faaliyet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Kullanici_ID" Type="int" Nullable="false" />
+          <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+          <Property Name="Faaliyet" Type="nvarchar" MaxLength="350" />
+          <Property Name="Tarih" Type="date" />
+          <Property Name="Hafta" Type="int" />
+          <Property Name="Durum" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tbl_Kullanici">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" />
+          <Property Name="KullaniciParola" Type="nvarchar" MaxLength="50" />
+          <Property Name="YetkiGrup_ID" Type="int" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tbl_YetkiGrup">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YetkiAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Function Name="SP_FaaliyetArama" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="tarih" Type="datetime" Mode="In" />
+          <Parameter Name="hafta" Type="int" Mode="In" />
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SP_FaaliyetDurumGuncelleme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="yil" Type="int" Mode="In" />
+          <Parameter Name="ay" Type="int" Mode="In" />
+          <Parameter Name="hafta" Type="int" Mode="In" />
+          <Parameter Name="kullaniciID" Type="int" Mode="In" />
+          <Parameter Name="deger" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SP_FaaliyetGuncelle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="kullaniciID" Type="int" Mode="In" />
+          <Parameter Name="tarih" Type="datetime" Mode="In" />
+          <Parameter Name="hafta" Type="int" Mode="In" />
+          <Parameter Name="baslik" Type="varchar" Mode="In" />
+          <Parameter Name="faaliyet" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="SP_FaaliyetKontrol" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="tarih" Type="datetime" Mode="In" />
+          <Parameter Name="hafta" Type="int" Mode="In" />
+          <Parameter Name="baslik" Type="varchar" Mode="In" />
+          <Parameter Name="faaliyet" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="SP_KullaniciDetay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SP_KullaniciFaaliyetListele" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SP_KullaniciYetki" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="hfrModelStoreContainer">
+          <EntitySet Name="tbl_Faaliyet" EntityType="Self.tbl_Faaliyet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_Kullanici" EntityType="Self.tbl_Kullanici" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_YetkiGrup" EntityType="Self.tbl_YetkiGrup" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="hfrModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="hfrEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tbl_Faaliyet" EntityType="hfrModel.tbl_Faaliyet" />
+          <EntitySet Name="tbl_YetkiGrup" EntityType="hfrModel.tbl_YetkiGrup" />
+          <EntitySet Name="tbl_Kullanici" EntityType="hfrModel.tbl_Kullanici" />
+          <FunctionImport Name="SP_FaaliyetDurumGuncelleme">
+            <Parameter Name="yil" Mode="In" Type="Int32" />
+            <Parameter Name="ay" Mode="In" Type="Int32" />
+            <Parameter Name="hafta" Mode="In" Type="Int32" />
+            <Parameter Name="kullaniciID" Mode="In" Type="Int32" />
+            <Parameter Name="deger" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_FaaliyetKontrol" ReturnType="Collection(Int32)">
+            <Parameter Name="id" Mode="In" Type="Int32" />
+            <Parameter Name="tarih" Mode="In" Type="DateTime" />
+            <Parameter Name="hafta" Mode="In" Type="Int32" />
+            <Parameter Name="baslik" Mode="In" Type="String" />
+            <Parameter Name="faaliyet" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_KullaniciDetay" ReturnType="Collection(hfrModel.SP_KullaniciDetay_Result)">
+          <Parameter Name="id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_KullaniciFaaliyetListele" ReturnType="Collection(hfrModel.SP_KullaniciFaaliyetListele_Result)">
+          <Parameter Name="ID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_KullaniciYetki" ReturnType="Collection(hfrModel.SP_KullaniciYetki_Result)" />
+          <FunctionImport Name="SP_FaaliyetArama" ReturnType="Collection(hfrModel.SP_FaaliyetArama_Result)">
+            <Parameter Name="tarih" Mode="In" Type="DateTime" />
+            <Parameter Name="hafta" Mode="In" Type="Int32" />
+            <Parameter Name="id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_FaaliyetGuncelle">
+            <Parameter Name="id" Mode="In" Type="Int32" />
+            <Parameter Name="kullaniciID" Mode="In" Type="Int32" />
+            <Parameter Name="tarih" Mode="In" Type="DateTime" />
+            <Parameter Name="hafta" Mode="In" Type="Int32" />
+            <Parameter Name="baslik" Mode="In" Type="String" />
+            <Parameter Name="faaliyet" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="tbl_Faaliyet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Kullanici_ID" Type="Int32" Nullable="false" />
+          <Property Name="Baslik" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Faaliyet" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+          <Property Name="Tarih" Type="DateTime" Precision="0" />
+          <Property Name="Hafta" Type="Int32" />
+          <Property Name="Durum" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tbl_YetkiGrup">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YetkiAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tbl_Kullanici">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KullaniciAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KullaniciParola" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="YetkiGrup_ID" Type="Int32" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <ComplexType Name="SP_KullaniciDetay_Result">
+          <Property Type="Int32" Name="ID" Nullable="true" />
+          <Property Type="String" Name="KullaniciAdi" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Tarih" Nullable="true" MaxLength="61" />
+          <Property Type="Int32" Name="Hafta" Nullable="true" />
+          <Property Type="Int32" Name="Durum" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="SP_KullaniciFaaliyetListele_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="Int32" Name="Kullanici_ID" Nullable="false" />
+          <Property Type="String" Name="Baslik" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="Faaliyet" Nullable="true" MaxLength="350" />
+          <Property Type="DateTime" Name="Tarih" Nullable="true" />
+          <Property Type="Int32" Name="Hafta" Nullable="true" />
+          <Property Type="Int32" Name="Durum" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="SP_KullaniciYetki_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="KullaniciAdi" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="SP_FaaliyetArama_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="Int32" Name="Kullanici_ID" Nullable="false" />
+          <Property Type="String" Name="Baslik" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="Faaliyet" Nullable="true" MaxLength="350" />
+          <Property Type="DateTime" Name="Tarih" Nullable="true" />
+          <Property Type="Int32" Name="Hafta" Nullable="true" />
+          <Property Type="Int32" Name="Durum" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="hfrModelStoreContainer" CdmEntityContainer="hfrEntities">
+          <EntitySetMapping Name="tbl_Faaliyet">
+            <EntityTypeMapping TypeName="hfrModel.tbl_Faaliyet">
+              <MappingFragment StoreEntitySet="tbl_Faaliyet">
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+                <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+                <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+                <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_YetkiGrup">
+            <EntityTypeMapping TypeName="hfrModel.tbl_YetkiGrup">
+              <MappingFragment StoreEntitySet="tbl_YetkiGrup">
+                <ScalarProperty Name="YetkiAdi" ColumnName="YetkiAdi" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_Kullanici">
+            <EntityTypeMapping TypeName="hfrModel.tbl_Kullanici">
+              <MappingFragment StoreEntitySet="tbl_Kullanici">
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="YetkiGrup_ID" ColumnName="YetkiGrup_ID" />
+                <ScalarProperty Name="KullaniciParola" ColumnName="KullaniciParola" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_FaaliyetDurumGuncelleme" FunctionName="hfrModel.Store.SP_FaaliyetDurumGuncelleme" />
+          <FunctionImportMapping FunctionImportName="SP_FaaliyetKontrol" FunctionName="hfrModel.Store.SP_FaaliyetKontrol" />
+          <FunctionImportMapping FunctionImportName="SP_KullaniciDetay" FunctionName="hfrModel.Store.SP_KullaniciDetay">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciDetay_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_KullaniciFaaliyetListele" FunctionName="hfrModel.Store.SP_KullaniciFaaliyetListele">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciFaaliyetListele_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+                <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+                <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_KullaniciYetki" FunctionName="hfrModel.Store.SP_KullaniciYetki">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciYetki_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_FaaliyetArama" FunctionName="hfrModel.Store.SP_FaaliyetArama">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="hfrModel.SP_FaaliyetArama_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+                <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+                <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_FaaliyetGuncelle" FunctionName="hfrModel.Store.SP_FaaliyetGuncelle" >
+          </FunctionImportMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

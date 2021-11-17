@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hfrModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_Faaliyet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kullanici_ID" Type="int" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+    <Property Name="Faaliyet" Type="nvarchar" MaxLength="350" />
+    <Property Name="Tarih" Type="date" />
+    <Property Name="Hafta" Type="int" />
+    <Property Name="Durum" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="KullaniciParola" Type="nvarchar" MaxLength="50" />
+    <Property Name="YetkiGrup_ID" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tbl_YetkiGrup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YetkiAdi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Function Name="SP_FaaliyetArama" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tarih" Type="datetime" Mode="In" />
+    <Parameter Name="hafta" Type="int" Mode="In" />
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_FaaliyetDurumGuncelleme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="yil" Type="int" Mode="In" />
+    <Parameter Name="ay" Type="int" Mode="In" />
+    <Parameter Name="hafta" Type="int" Mode="In" />
+    <Parameter Name="kullaniciID" Type="int" Mode="In" />
+    <Parameter Name="deger" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_FaaliyetGuncelle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="kullaniciID" Type="int" Mode="In" />
+    <Parameter Name="tarih" Type="datetime" Mode="In" />
+    <Parameter Name="hafta" Type="int" Mode="In" />
+    <Parameter Name="baslik" Type="varchar" Mode="In" />
+    <Parameter Name="faaliyet" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_FaaliyetKontrol" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="tarih" Type="datetime" Mode="In" />
+    <Parameter Name="hafta" Type="int" Mode="In" />
+    <Parameter Name="baslik" Type="varchar" Mode="In" />
+    <Parameter Name="faaliyet" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_KullaniciDetay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_KullaniciFaaliyetListele" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_KullaniciYetki" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="hfrModelStoreContainer">
+    <EntitySet Name="tbl_Faaliyet" EntityType="Self.tbl_Faaliyet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Kullanici" EntityType="Self.tbl_Kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_YetkiGrup" EntityType="Self.tbl_YetkiGrup" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

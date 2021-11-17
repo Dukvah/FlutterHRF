@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="hfrModelStoreContainer" CdmEntityContainer="hfrEntities">
+    <EntitySetMapping Name="tbl_Faaliyet">
+      <EntityTypeMapping TypeName="hfrModel.tbl_Faaliyet">
+        <MappingFragment StoreEntitySet="tbl_Faaliyet">
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_YetkiGrup">
+      <EntityTypeMapping TypeName="hfrModel.tbl_YetkiGrup">
+        <MappingFragment StoreEntitySet="tbl_YetkiGrup">
+          <ScalarProperty Name="YetkiAdi" ColumnName="YetkiAdi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Kullanici">
+      <EntityTypeMapping TypeName="hfrModel.tbl_Kullanici">
+        <MappingFragment StoreEntitySet="tbl_Kullanici">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="YetkiGrup_ID" ColumnName="YetkiGrup_ID" />
+          <ScalarProperty Name="KullaniciParola" ColumnName="KullaniciParola" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_FaaliyetDurumGuncelleme" FunctionName="hfrModel.Store.SP_FaaliyetDurumGuncelleme" />
+    <FunctionImportMapping FunctionImportName="SP_FaaliyetKontrol" FunctionName="hfrModel.Store.SP_FaaliyetKontrol" />
+    <FunctionImportMapping FunctionImportName="SP_KullaniciDetay" FunctionName="hfrModel.Store.SP_KullaniciDetay">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciDetay_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_KullaniciFaaliyetListele" FunctionName="hfrModel.Store.SP_KullaniciFaaliyetListele">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciFaaliyetListele_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_KullaniciYetki" FunctionName="hfrModel.Store.SP_KullaniciYetki">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="hfrModel.SP_KullaniciYetki_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_FaaliyetArama" FunctionName="hfrModel.Store.SP_FaaliyetArama">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="hfrModel.SP_FaaliyetArama_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Faaliyet" ColumnName="Faaliyet" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Hafta" ColumnName="Hafta" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_FaaliyetGuncelle" FunctionName="hfrModel.Store.SP_FaaliyetGuncelle" />
+  </EntityContainerMapping>
+</Mapping>

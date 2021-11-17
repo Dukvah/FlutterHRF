@@ -1,0 +1,35 @@
+C:\Users\user\source\repos\Api\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\Api\DAL\bin\Debug\DAL.dll
+C:\Users\user\source\repos\Api\DAL\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\Api\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\Api\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\Api\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\Api\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\Api\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Api\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Api\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\source\repos\Api\DAL\obj\Debug\DAL.dll
+C:\Users\user\source\repos\Api\DAL\obj\Debug\DAL.pdb
+E:\bugrahansnmz\Api\DAL\bin\Debug\DAL.dll.config
+E:\bugrahansnmz\Api\DAL\bin\Debug\DAL.dll
+E:\bugrahansnmz\Api\DAL\bin\Debug\DAL.pdb
+E:\bugrahansnmz\Api\DAL\bin\Debug\EntityFramework.dll
+E:\bugrahansnmz\Api\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\bugrahansnmz\Api\DAL\bin\Debug\EntityFramework.xml
+E:\bugrahansnmz\Api\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\bugrahansnmz\Api\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\bugrahansnmz\Api\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\bugrahansnmz\Api\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\bugrahansnmz\Api\DAL\obj\Debug\DAL.dll
+E:\bugrahansnmz\Api\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\DAL.dll.config
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Desktop\flutter HRF\C# HRF\DAL\obj\Debug\DAL.pdb
